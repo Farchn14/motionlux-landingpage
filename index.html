@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MotionLux – Lampu Pintar IoT yang Tahu Kapan Harus Menyala</title>
+<meta name="description" content="MotionLux: lampu pintar IoT dengan 4 mode kontrol – aplikasi, jadwal, sunrise/sunset, dan sensor gerak.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<input type="checkbox" id="sw" checked hidden>
+
+<header class="nav">
+  <a class="logo" href="#top"><span class="dot"></span>Motion<b>Lux</b></a>
+  <nav><a href="#fitur">Fitur</a><a href="#unggulan">Keunggulan</a><a href="#cara">Cara Kerja</a><a href="#cocok">Untuk Siapa</a></nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-text">
+    <p class="chip">IoT · Smart Home · Hemat Energi</p>
+    <h1>Lampu yang <span class="glow">tahu kapan</span> harus menyala.</h1>
+    <p class="lead">Sensor gerak, jadwal, matahari terbit–terbenam, dan kontrol dari aplikasi. Semua dalam satu lampu pintar. Tidak ada lagi lampu yang lupa dimatikan.</p>
+    <div class="cta">
+      <a class="btn" href="#fitur">Jelajahi Fitur ↓</a>
+      <a class="btn ghost" href="#unggulan">Lihat Keunggulan</a>
+    </div>
+    <ul class="stats">
+      <li><b>4</b>mode kontrol</li><li><b>3–7 m</b>jangkauan sensor</li><li><b>24/7</b>via aplikasi</li>
+    </ul>
+  </div>
+  <div class="hero-visual">
+    <label for="sw" class="lamp" title="Klik lampunya!">
+      <span class="cord"></span><span class="shade"></span><span class="bulb"></span><span class="beam"></span>
+    </label>
+    <p class="hint"><span class="on-t">👆 Klik lampu untuk mematikan</span><span class="off-t">👆 Klik lampu untuk menyalakan</span></p>
+  </div>
+</section>
+
+<section class="marquee" aria-hidden="true"><div>
+  <span>Hemat Listrik</span><span>Otomatis</span><span>Kontrol Aplikasi</span><span>Sensor Gerak</span><span>Smart Home</span><span>Sunrise · Sunset</span>
+  <span>Hemat Listrik</span><span>Otomatis</span><span>Kontrol Aplikasi</span><span>Sensor Gerak</span><span>Smart Home</span><span>Sunrise · Sunset</span>
+</div></section>
+
+<section id="fitur" class="sec feat">
+  <input type="radio" name="t" id="t1" checked hidden>
+  <input type="radio" name="t" id="t2" hidden>
+  <input type="radio" name="t" id="t3" hidden>
+  <input type="radio" name="t" id="t4" hidden>
+  <h2>Empat cara <span class="glow">menyalakan</span> cahaya</h2>
+  <p class="sub">Pilih satu mode dan lihat langsung bagaimana lampunya bekerja.</p>
+  <div class="demo">
+    <div class="tabs">
+      <label for="t1" class="tab"><i>📱</i><span><b>Kontrol Aplikasi</b>Tombol on/off dari mana saja</span></label>
+      <label for="t2" class="tab"><i>⏰</i><span><b>Jadwal Jam</b>Nyala &amp; mati sesuai waktu pilihanmu</span></label>
+      <label for="t3" class="tab"><i>🌅</i><span><b>Sunrise &amp; Sunset</b>Ikut matahari sesuai lokasimu</span></label>
+      <label for="t4" class="tab"><i>🏃</i><span><b>Sensor Gerak</b>Menyala hanya saat ada aktivitas</span></label>
+    </div>
+    <div class="stage">
+      <div class="scene s1">
+        <div class="phone"><small>MotionLux</small><p>Lampu Ruang Tamu</p><div class="tog"><span></span></div><div class="halo"></div></div>
+      </div>
+      <div class="scene s2">
+        <div class="clock"><i></i><span>18:00</span></div>
+        <div class="chips"><em class="c-on">18:00 · ON</em><em class="c-off">22:00 · OFF</em></div>
+      </div>
+      <div class="scene s3">
+        <div class="sky"></div><div class="sun"></div><div class="hill"></div>
+        <div class="gbulb">💡</div><p class="cap">Gelap → nyala · Terang → mati</p>
+      </div>
+      <div class="scene s4">
+        <div class="room"><div class="pir">📡</div><div class="wave"></div><div class="wave w2"></div><div class="light"></div><div class="man">🚶</div></div>
+        <p class="cap">Ada gerakan → lampu menyala</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="unggulan" class="sec alt">
+  <h2>Kenapa <span class="glow">MotionLux?</span></h2>
+  <p class="sub">Bukan sekadar lampu yang bisa dikendalikan HP, tapi lampu yang berpikir.</p>
+  <div class="vs">
+    <div class="old"><h3>Lampu biasa</h3><ul><li>✗ Sering lupa dimatikan</li><li>✗ Harus ke saklar</li><li>✗ Nyala saat ruangan kosong</li><li>✗ Tagihan listrik boros</li></ul></div>
+    <div class="vsb">VS</div>
+    <div class="new"><h3>MotionLux</h3><ul><li>✓ Mati otomatis, hemat energi</li><li>✓ Kendali dari aplikasi</li><li>✓ Menyala hanya saat ada aktivitas</li><li>✓ 4 mode pintar dalam 1 lampu</li></ul></div>
+  </div>
+  <div class="bento">
+    <div class="tile big"><b>⚡</b><h3>Hemat energi</h3><p>Lampu menyala sesuai kebutuhan, bukan kebiasaan lupa.</p><div class="bar"><span></span></div></div>
+    <div class="tile"><b>🎛️</b><h3>Fleksibel</h3><p>Empat mode untuk setiap situasi.</p></div>
+    <div class="tile"><b>🛡️</b><h3>Aman &amp; nyaman</h3><p>Terang otomatis saat malam ada gerakan.</p></div>
+    <div class="tile hot big"><b>🏡</b><h3>Siap untuk smart home</h3><p>Berbasis ESP32 &amp; IoT, siap dikembangkan dengan kontrol suara, notifikasi, dan pemantauan listrik.</p></div>
+  </div>
+</section>
+
+<section id="cara" class="sec">
+  <h2>Cara <span class="glow">kerjanya</span></h2>
+  <ol class="steps">
+    <li><b>1</b><h3>Kamu atur</h3><p>Pilih mode lewat aplikasi web.</p></li>
+    <li><b>2</b><h3>Server kirim</h3><p>API &amp; database meneruskan perintah.</p></li>
+    <li><b>3</b><h3>ESP32 eksekusi</h3><p>Terhubung WiFi, membaca sensor PIR.</p></li>
+    <li><b>4</b><h3>Lampu menyala</h3><p>Relay menyambung listrik dengan aman.</p></li>
+  </ol>
+  <div class="tech"><span>ESP32</span><span>Sensor PIR HC-SR501</span><span>Modul Relay</span><span>MicroPython</span><span>React + Vite</span><span>Express.js</span><span>Supabase</span></div>
+</section>
+
+<section id="cocok" class="sec alt">
+  <h2>Cocok untuk <span class="glow">siapa saja</span></h2>
+  <div class="pills"><span>🏠 Rumah</span><span>🏢 Apartemen</span><span>🛏️ Kos</span><span>💼 Kantor</span><span>🏫 Sekolah</span><span>🏨 Hotel</span><span>🏪 Toko</span><span>📦 Gudang</span></div>
+</section>
+</main>
+
+<footer>
+  <a class="logo" href="#top"><span class="dot"></span>Motion<b>Lux</b></a>
+  <p>Project IoT Lampu Otomatis Hemat Daya · Kelompok 6 · SMK Negeri 8 Malang · 2026</p>
+  <p class="team">Irwansyah Adityo · Lavindis Tivani Sadella · Muhammad Farchan · Yasmin Aulia Maulida</p>
+</footer>
+</body>
+</html>
